@@ -58,13 +58,14 @@
     .swear{
       display:inline-block;
       padding: 1px 6px;
-      border: 2px solid #111;
+      border: 2px solid var(--red);
       border-radius: 6px;
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
       font-weight: 800;
       letter-spacing: .6px;
       transform: translateY(-1px);
       background:#fff;
+      color: var(--red);
     }
 
     .contact{
@@ -78,15 +79,6 @@
     }
     .contact a{color:#000;text-decoration:none;}
     .contact a:hover{text-decoration:underline;}
-    .mini{
-      margin-top: 8px;
-      font-size: 14px;
-      font-weight: 700;
-      display:flex;
-      gap: 18px;
-    }
-    .mini a{color:#000;}
-    .mini a:hover{text-decoration:underline;}
     .icon{
       width: 28px;height: 28px;
       border:2px solid #111;border-radius:7px;
@@ -150,15 +142,10 @@
           <div><a href="mailto:info@ingenjorsbyran.se">info@ingenjorsbyran.se</a></div>
         </div>
 
-        <nav class="mini" aria-label="Länkar">
-          <a href="mailto:info@ingenjorsbyran.se">E-post</a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://ingenjorsbyran.se" target="_blank" rel="noopener">Webb</a>
-        </nav>
+        <!-- (Borttaget) E-post / LinkedIn / Webb -->
       </div>
 
       <figure class="right">
-        <!-- Byt filnamn här om du vill välja en annan av de uppladdade -->
         <img class="hero" src="images/ingenjor_3.jpg" alt="Ingenjör i industrimiljö" />
       </figure>
     </section>
